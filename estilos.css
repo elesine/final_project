@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    /* background: url(img/fondo.png) no-repeat center; */
+    /* background-size: cover; */
+    /* font-family: 'Carter One', Arial, Helvetica, sans-serif; */
+    font-family: 'Rubik Moonrocks', cursive;
+    min-height: 100vh;
+}
+
+header{
+    background: black;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1{
+    margin: 0;
+    color: white;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: rgba(255,255,255,.7);
+    display: flex;
+    gap: 30px;
+}
+
+#imagen{
+    width: 200px;
+}
+
+#palabra_a_adivinar{
+    height: 3em;
+    font-family: 'Carter One', Arial, Helvetica, sans-serif; 
+}
+
+#palabra_a_adivinar span{
+    vertical-align: bottom;
+    font-size: 2em;
+    border-bottom: 2px solid rgb(222, 18, 18);
+    width: 30px;
+    text-align: center;
+    margin-right: 6px;
+    display: inline-block; 
+}
+
+#letras{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+}
+
+button{
+    border: 2px solid #473306;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+    padding: 6px 6px 6px 6px;
+    border: 2px solid #473306;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#letras button{
+    width: 28px;
+    border: 2px solid #473306;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+    padding: 6px 0;
+    border: 2px solid #473306;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
